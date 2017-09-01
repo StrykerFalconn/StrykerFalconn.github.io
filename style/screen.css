@@ -1,0 +1,433 @@
+/* The Doghouse NYC */
+
+
+/*general stuff*/
+
+* {margin: 0; padding: 0; border: 0;}
+
+body {
+	font: 12px/17px Georgia, serif;
+	color: #000;
+	background: #333;
+}
+
+body#popup {background: #fff;}
+ 
+.hide {
+	display: none;
+ }
+
+/*typography and images*/
+
+
+h1 {
+	text-indent: -9999px;
+	height: 100px;
+	background: #fff url(../images/header.gif) no-repeat top left;
+}
+
+h1 a:link, h1 a:visited {
+	display: block;
+	border: 0;
+	height: 88px;
+	width: 290px;
+	text-decoration: none;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0 5px 0;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+h2 a:link, h2 a:visited {
+	border-bottom: none;
+}
+
+
+h3 {
+	font: bold 11px verdana, "lucida grande", sans-serif;
+	text-transform: uppercase;
+	text-indent: 12px;
+	margin: 15px 0 0 0;
+	color: #333;
+	letter-spacing: .1em;
+}
+
+
+p {
+	margin: 3px 0 0 0;
+	padding: 0;
+	text-indent: 12px; 
+}
+
+p.tag {
+	font: 9px verdana, "lucida grande", sans-serif;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-indent: 0;
+	margin: 0;
+	padding: 10px 0 0 7px;
+	background: url(../images/gray_tri.gif) bottom left no-repeat;
+}
+
+}
+
+p.reeltag {
+	font: 9px verdana, "lucida grande", sans-serif;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-indent: 0px;
+	margin: 0;
+	padding: 0px;
+	background: url(../images/gray_tri.gif) bottom left no-repeat;
+}
+
+p.first {
+	margin: 6px 0 0 0;
+	text-indent: 0;
+}
+
+p.last {
+	margin: 15px 0 0 0;
+	text-indent: 0;
+}
+
+p.foot {
+	font: normal 9px/30px verdana, "lucida grande", sans-serif;
+	color: #000000;
+	background-color: #ccc;
+}
+
+p.credit {
+	font: normal 9px/30px verdana, "lucida grande", sans-serif;
+	color: #000000;
+		margin: 0px 0 0 0;
+	text-indent: 0;
+
+}
+
+
+.contd {
+	padding: 0 15px 0 0;
+	background: transparent url(../images/forward_arrow.gif) no-repeat right center;
+	font: 9px verdana, "lucida grande", sans-serif;
+	text-indent: 0;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+}
+
+
+.more {
+	padding: 0 15px 0 50px;
+	background: transparent url(../images/forward_arrow.gif) no-repeat right center;
+	font: 9px verdana, "lucida grande", sans-serif;
+	text-indent: 0;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+
+}
+.contd a:link, .contd a:visited {
+	color: #666;
+	border-bottom: 0;
+}
+
+.contd a:hover {
+	color: #000;
+	border-bottom: 0;
+}
+
+
+
+#sidebar p.pull {
+	color: #036;
+	font-size: 23px;
+	line-height: 26px;
+	font-weight: normal; 
+	font-family: Georgia, serif;
+	background: url(../images/leftquote.gif) top left no-repeat;
+	margin: 0 0 30px -20px;
+	padding: 0 0 0 20px;
+	min-height: 200px
+}
+
+
+
+#sidebar p.smallpull {
+	color: #036;
+	font-size: 23px;
+	line-height: 26px;
+	font-weight: normal; 
+	font-family: Georgia, serif;
+	background: url(../images/leftquote.gif) top left no-repeat;
+	margin: 0 0 30px -20px;
+	padding: 0 0 0 20px;
+}
+
+#sidebar p.nopull {
+	color: #036;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: normal; 
+	font-family: Georgia, serif;
+	margin: 80 0 30px -20px;
+	padding: 80 0 0 20px;
+}
+
+#sidebar p.noquote {
+	color: #036;
+	font-size: 23px;
+	line-height: 26px;
+	font-weight: normal; 
+	font-family: Georgia, serif;
+	margin: 0 0 30px -20px;
+	padding: 0 0 0 20px;
+}
+
+
+#sidebar p {
+	font: 11px/14px verdana, "lucida grande", sans-serif;
+	line-height: 15px;
+	text-indent: 0;
+	margin: 0 0 30px 0;
+}
+
+#sidebar h3 {
+	padding: 10px 0 3px 0;
+	text-indent: 0;
+	font: 9px verdana, "lucida grande", sans-serif;
+	color: #666;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sidebar .pic {
+	padding: 10px;
+	width: 200px;
+	display: block;
+	border: 1px solid #333;
+	text-align: center;
+
+}
+
+#sidebar .picmic {
+	margin: 250px 0 0 0;
+	padding: 10px;
+	width: 200px;
+	display: block;
+	border: 1px solid #333;
+	text-align: center;
+
+}
+
+
+#sidebar .photo {
+	padding: 10px;
+	width: 200px;
+	display: block;
+	border: 1px solid #333;
+	text-align: center;
+
+}
+
+#main .floatingleft {
+	float: left;
+margin-top:4px;
+margin-right:6px;
+margin-bottom:0px;
+clear: both;
+}
+
+
+#main .pic {
+	width: 305px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	border: 1px solid #333;
+}
+
+
+#header {
+margin: 0px 20 0 0;
+}
+
+/*layout*/
+#frame {
+	width: 640px;
+	margin: 0 auto;
+	border-top: 5px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	background: #fff;
+	padding: 0 0 10px 0;
+}
+
+#main {
+	float: left;
+	width: 335px;
+	#min-height: 700px;
+	border-right: 1px solid #999;
+	padding: 0 20px 0 20px;
+	margin: 0;
+}
+
+#sidebar {
+	width: 220px;
+	float: right;
+	margin: 0px 20px 0 0;
+	padding: 0px 0px 0 20px;
+}
+
+#pic {
+	background: #fff;
+	width: 600px;
+	padding: 20px 20px 0 20px;
+}
+
+
+
+#footnote {
+	margin: 0px 0 0 0;
+	clear: both;
+	height: 30px;
+	padding: 30px 10 0 0;
+        text-align: center;
+}
+
+#pop {
+	width: 200px;
+	padding: 20px;
+	margin: 0;
+}
+
+
+#reel	{
+	font: 11px/16px Georgia, serif;
+	margin: 3px 0 0 0;
+	padding: 10px 0 0px 0;
+	text-indent: 0px; 
+	clear: both;
+
+}
+
+#reel .floatingleft {
+	float: left;
+margin-top:4px;
+margin-right:6px;
+margin-bottom:0px;
+
+}
+
+
+#reel h2	{
+margin: 20px 0 0 0;
+	border-top: 1px solid #000;
+	border-bottom: 0px solid #000;
+
+
+}
+
+
+/*primary navigation*/
+
+#mainnav {
+	height: 30px;
+	width: 600px;
+	margin: 5px 20px 20px 20px;
+}
+
+#mainnav ul#menu {
+	height: 30px;
+	width: 600px;
+	background: #fff url(../images/nav.gif) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#mainnav ul#menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+ul#menu li, ul#menu a {
+	height: 30px;
+	display: block;
+}
+
+#mainnav ul#menu li a {
+	text-indent: -9999px;
+	text-decoration: none;
+	border: 0;
+}
+
+#artmenu {left: 0; width: 62px;}
+#stumenu {left: 62px; width: 48px;}
+#workmenu {left: 110px; width: 44px;}
+#biomenu {left: 154px; width: 70px;}
+#conmenu {left: 224px; width: 56px;}
+
+#artmenu a:hover {background: #fff url(../images/nav.gif) 0 -30px no-repeat;}
+#stumenu a:hover {background: #fff url(../images/nav.gif) -62px -30px no-repeat;}
+#workmenu a:hover {background: #fff url(../images/nav.gif) -110px -30px no-repeat;}
+#biomenu a:hover {background: #fff url(../images/nav.gif) -154px -30px no-repeat;}
+#conmenu a:hover {background: #fff url(../images/nav.gif) -224px -30px no-repeat;}
+	
+	/*you are here*/
+body#home #artmenu {background: #fff url(../images/nav.gif) 0 -30px no-repeat;}
+body#studio #stumenu {background: #fff url(../images/nav.gif) -62px -30px no-repeat;}
+body#work #workmenu {background: #fff url(../images/nav.gif) -110px -30px no-repeat;}
+body#bio #biomenu {background: #fff url(../images/nav.gif) -154px -30px no-repeat;}
+body#con #conmenu {background: #fff url(../images/nav.gif) -224px -30px no-repeat;}
+
+/*sub navigation*/
+
+#sidebar ul{
+	padding: 0 0 15px 0;
+	font: 10px/18px Verdana, "Lucida Grande", sans-serif;
+	color: #333;
+}
+
+#sidebar ul li {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+#sidebar ul li a:link, #sidebar ul li a:visited {
+	color: #333;
+	text-decoration: none;
+	border: 0;
+}
+
+#sidebar ul li a:hover {
+	color: #9c6;
+	border-bottom: 1px solid #9c6;
+}
+
+
+/*default links*/
+a:link, a:visited {
+	color: #069;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom: 1px dotted #9c6;
+}
+
+a:hover {
+	color: #9c6;
+	border-bottom: 1px solid #9c6;
+}
