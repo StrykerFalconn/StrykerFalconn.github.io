@@ -8,7 +8,7 @@
 body {
 	font: 12px/17px Georgia, serif;
 	color: #000;
-	background: #333;
+	background: #111;
 }
 
 body#popup {background: #fff;}
@@ -117,37 +117,12 @@ margin: 0px 20 0 0;
 	margin: 0;
 }
 
-#sidebar {
-	width: 220px;
-	float: right;
-	margin: 0px 20px 0 0;
-	padding: 0px 0px 0 20px;
-}
+
 
 #pic {
 	background: #fff;
 	width: 600px;
 	padding: 20px 20px 0 20px;
-}
-
-
-
-#footnote {
-	margin: 0px 0 0 0;
-	clear: both;
-	height: 30px;
-	padding: 30px 10 0 0;
-        text-align: center;
-}
-
-
-
-#reel h2	{
-margin: 20px 0 0 0;
-	border-top: 1px solid #000;
-	border-bottom: 0px solid #000;
-
-
 }
 
 
