@@ -21,7 +21,7 @@ body#popup {background: #fff;}
 
 
 h1 {
-	text-indent: -9999px;
+	text-indent: 0px;
 	height: 100px;
 	background: #fff url(../images/header.gif) no-repeat top left;
 }
