@@ -1,0 +1,38 @@
+/*general stuff*/
+
+body {
+	font: Georgia, serif 15px;
+	background-color: aaa;
+	color: 222;
+}
+
+h1 {
+	color: blue;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-style: italic;
+	color: red;
+}
+
+.myFirstSection {
+	width: 300px;
+	background-color: red;
+	border: 2px solid black;
+	padding: 5px;
+
+}
+
+#myBackgroundImageSection {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	width: 400px;
+	background-image: url(../images/photo.jpg);
+	background-size: 100%;
+
+}
+
+
+
